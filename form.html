@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">go back to homepage</a>
+        <h3 style="text-align: right; padding-right: 2%; padding-top: 1%; ">Transforming Events, Creating Memories!</h3>
+    </div>
+
+   
+   
+    <div class="container">
+
+
+
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <h3>GET IN TOUCH</h3>
+           
+
+            <input type="hidden" name="access_key" value="0709b20e-a7a3-44d4-9a9b-752591da3064">
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your Name:" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email:" required>
+
+            <label for="event">Event Type:</label>
+            <input type="text" name="event" placeholder="Event Details" required>
+
+            <label for="date">Event Date:</label>
+            <input type="date" name="date" placeholder="Event date" required>
+    
+            <label for="message">Message:</label>
+            <textarea name="message" rows="2" placeholder="Enter your message:"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
+
